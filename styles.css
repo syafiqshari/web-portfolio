@@ -5,8 +5,37 @@ body{
     background: linear-gradient( #040D12 20%, #133131 50%, rgb(32, 66, 47) 90%);
     font-family: 'Poppins', sans-serif;
     color: #a2c4b7;
-    margin: 0 17%;
     text-align: justify;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed;
+    inset: 0.5rem 1rem auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(0.5 rem, 2.5vw, 3rem);
+    background-color: rgba(24, 61, 61, 0.8);
+    border-radius: 0.5rem;
+}
+
+nav a{
+    color: #a2c4b7;
+    font-weight: 600;
+}
+
+nav a:hover{ color: #62cea4;}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .centered {
@@ -14,18 +43,12 @@ body{
     justify-content: center;
 }
 
-.header {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 1%;
-    margin-right: 70%;
-}
 
-.header-text{
+.nav-text{
     margin: 4% 6% 0% 8%;
 }
 
-.header-text:hover{
+.nav-text:hover{
     color: #62cea4;
 }
 
