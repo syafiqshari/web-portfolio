@@ -42,7 +42,6 @@ section{
     justify-content: center;
 }
 
-
 .top-section{
     display: flex;
     justify-content: space-around;
@@ -106,8 +105,6 @@ section{
     background-color: #215353;
     color: #62cea4;
 }
-
-
 
 em {color: #fd0138;}
 a {text-decoration: none;}
