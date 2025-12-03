@@ -48,13 +48,6 @@ section{
     gap: 20px
 }
 
-.mid-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
-}
-
 .my-name {
     word-spacing: 10%;
     font-size: 400%;
@@ -62,7 +55,7 @@ section{
     margin-bottom: -10px;
 }
 
-.profile-pic{
+.profile-pic {
     width: 350px;
     height: 350px;
     border-radius: 10%;
@@ -70,6 +63,30 @@ section{
     border-color: #5C8374;
 }
 
+.mid-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.skill-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    background-color:rgba(24, 61, 61, 0.8);
+    border-radius: 0.5rem;
+    padding: 10px;
+    text-shadow: #0d2222 1px 1px 2px;
+}
+
+
+.skill-bar-clicked{
+    background-color:#26af7b;
+    border-radius: 0.5rem;
+    padding: 8px 80px;
+}
 
 .flex-boxs {
     background-color: #183D3D;
@@ -102,5 +119,8 @@ section{
     color: #62cea4;
 }
 
+p {
+    font-size: 17px;
+}
 em {color: #fd0138;}
 a {text-decoration: none;}
