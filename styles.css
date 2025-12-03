@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background: linear-gradient( #040D12 20%, #133131 50%, rgb(32, 66, 47) 90%);
     font-family: 'Poppins', sans-serif;
     color: #a2c4b7;
     text-align: justify;
-}
-
-html{
-    scroll-behavior: smooth;
 }
 
 nav{
@@ -37,6 +37,9 @@ section{
     align-items: center;
 }
 
+#centered {
+    text-align: center;
+}
 
 .top-section{
     display: flex;
@@ -64,12 +67,9 @@ section{
     display: block;
     border: 4px solid;
     border-color: #5C8374;
-    margin: 0 auto;
+    margin: 0 50px;
 }
 
-.profile-pic-margin{
-    margin-left: 2%;
-}
 
 .flex-boxs {
     background-color: #183D3D;
